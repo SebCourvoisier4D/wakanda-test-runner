@@ -50,7 +50,7 @@ onmessage = function(event) {
 			            'type': '__done__',
 			            'data': _wakanda_mocha_report || null
 			        });
-			        close();
+			        // Makes the Server crash: close();
 			   	});
     			break;
     	}
@@ -63,7 +63,7 @@ onmessage = function(event) {
             	error: e
  	       }
         });
-        close();
+        // Makes the Server crash: close();
     }
 };
 

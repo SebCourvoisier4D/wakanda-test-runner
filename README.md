@@ -46,6 +46,3 @@ runner.init('wakanda-server', function (err, ready) {
 	}
 });
 `````
-
-**Warning: on Windows, a second run on a Wakanda `Worker` will crash the Server... On Mac, it crashes on the first run...**
-
