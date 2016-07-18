@@ -10,7 +10,7 @@
 To run the sample test in the context of a `NodeWorker`:
 
 `````
-var runner = require('test-runner');
+var runner = require('wakanda-test-runner');
 
 runner.init('nodejs', function (err, ready) {
 	if (ready === true) {
@@ -30,7 +30,7 @@ runner.init('nodejs', function (err, ready) {
 To run the sample test in the context of a Wakanda `Worker`:
 
 `````
-var runner = require('test-runner');
+var runner = require('wakanda-test-runner');
 
 runner.init('wakanda-server', function (err, ready) {
 	if (ready === true) {
